@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+.App {
+  margin-top: 10%;
+  margin-bottom: 15%;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 0;
+  font-size: medium;
+  /* text-align: center; */
+}
+
+.form-label {
+  margin-bottom: 0.5rem;
+  font-family: "Roboto Mono", monospace;
+}
+.form-control {
+  font-family: "Space Grotesk", sans-serif;
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  /*font-size: 1rem;*/
+  font-weight: 400;
+  /*line-height: 1.5;*/
+  color: #212529;
+  background-color: #f2f2f2;
+  background-clip: padding-box;
+  border: 2px solid #ced4da;
+  border-radius: 0;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-group {
+  font-family: "Roboto Mono", monospace;
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  transition-property: box-shadow, background;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+  cursor: text;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0px;
+  height: 30px;
+  text-align: left;
+  resize: vertical;
+  max-height: 25rem;
+}
+
+.form-control:hover {
+  box-shadow: 0px 2px 4px rgb(39 44 52 / 12%);
+}
+
+.form-control:focus {
+  transition-property: border-color, box-shadow, background;
+  border-color: #39414d;
+  outline: 0px;
+  box-shadow: 0 0 0 3px #c5d2e7;
+}
+
+.btn {
+  max-width: 50%;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0;
+  line-height: 20px;
+  height: 30px;
+  max-height: 40px;
+  background: #f2f2f2;
+  font-weight: 700;
+  border: 2px solid #ced4da;
+  border-radius: 0;
+  color: #272c34;
+  transition-timing-function: ease-in-out;
+  transition-property: box-shadow;
+  transition-duration: 150ms;
+}
+
+.btn:active {
+  background-color: #777;
+  border-color: #777;
+  color: #272c34;
+}
+
+/*.btn:hover {*/
+/* box-shadow: 0 2px 2px rgb(39 44 52 / 12%);*/
+/*}*/
+
+.pos {
+  display: flex;
+  -moz-box-pack: start;
+  justify-content: start;
+  -moz-box-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.gender {
+  margin-top: 20px;
+}
+
+.non-valid {
+  color: red;
+}

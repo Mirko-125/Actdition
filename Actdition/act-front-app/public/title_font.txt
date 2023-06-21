@@ -1,0 +1,4 @@
+@font-face {
+    font-family: 'Title';
+    src: url('../public/One\ two\ thirty-four.woff2') format('woff2');
+  }

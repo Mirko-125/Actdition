@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+.form-group
+{
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.textarea
+{
+    resize: none;
+    max-width: 100%;
+    height: 15.5rem;
+}

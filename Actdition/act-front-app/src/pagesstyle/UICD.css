@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap");
+
+.desna-strana {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-content: flex-start;
+}
+
+.leva-strana {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: #cecece;
+  min-height: 25rem;
+  align-content: flex-start;
+}
+
+.display {
+  width: 100%;
+  background-color: #ddd;
+  display: flex;
+}
+
+.strana {
+  font-size: 5vh;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.split-view {
+  display: flex;
+  height: 100vh;
+}
+
+.uicd::before,
+.uicd::after {
+  --scale: 0;
+  --arrow-size: 20px;
+  --tooltip-color: rgba(0, 0, 0, 0.774);
+
+  position: absolute;
+  top: -.25rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(var(--translate-y, 0)) scale(var(--scale));
+  transition: 150ms transform;
+  transform-origin: bottom center;
+}
+.uicd{
+  position: relative;
+  white-space: pre-line;
+}
+
+.uicd::before {
+  --translate-y: calc(100% + var(--arrow-size));
+
+  z-index: 99;
+  content: attr(data-tooltip);
+  color: white;
+  padding: .5rem;
+  border-radius: .3rem;
+  text-align: center;
+  width: max-content;
+  max-width: 100%;
+  background: var(--tooltip-color);
+}
+
+.uicd:hover::before,
+.uicd:hover::after {
+  --scale: 1;
+}
+
+.uicd::after {
+  --translate-y: calc(-1 * var(--arrow-size));
+
+  content: '';
+  border: var(--arrow-size) solid transparent;
+  border-top-color: var(--tooltip-color);
+  transform-origin: top center;
+}
+
+.trunck
+{
+  border-left: solid black;
+  border-right: dashed black;
+  border-top:solid black;
+  border-bottom:solid black;
+}
+
+.left-panel {
+  flex: 1;
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+.right-panel {
+  flex: 1;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.element-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.element {
+  background-color: #ddd;
+  border: 1px solid #999;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  cursor: move;
+}

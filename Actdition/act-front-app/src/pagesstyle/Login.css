@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+.image
+{
+    /*Treba da se namesti slika*/
+    display:flex;
+    margin:0;
+    width: 50%;
+    padding: 0;
+}
+
+.block
+{
+   position: center;
+   padding:0;
+   margin: 0;
+
+}
+
+
+
+.App{
+    background-color:rgb(255, 255, 255);
+    size: 1300px 1500px;
+    background-size:cover;
+    display: flexbox;
+    padding: 0px;
+    margin-left:450px;
+    margin-right:450px;
+    margin-top:80px;
+    margin-bottom:100px;
+    justify-content: center;
+    text-align: center;
+    border-width: 100px;
+}
+
+.form-control{
+    border-radius: 8px;
+}
+
+.btn-wrapper{
+    text-align: center;
+}
+
+.btn{
+    margin-top:10px;
+    background-color:#333;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+    font-size:14px;
+    margin-right: 2px;
+    max-width: 40px;
+    padding:0;
+}
+
+.btn:hover{
+    background-color: #777; 
+    
+}
+
+
+.form-welcomeBack h3{
+    font-size: 23px;
+    text-align: center;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #333;
+}

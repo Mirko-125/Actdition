@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+.footer
+{
+  bottom: 0%;
+  width: 100%;   /* Height of the footer */
+  font-family: 'Space Grotesk', sans-serif;
+  /*box-shadow: 0 50vh 0 50vh #000000;*/
+  justify-content:space-between;
+  font-size: 15px;
+  padding-right: 5%;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flexbox;
+  margin:0;
+  color:rgb(255, 255, 255);
+  background-color:#000000;
+}
+
+.footer-column{
+  padding-bottom: 0%;
+  padding-top: 0.5%;
+}
+
+.footer-column2{
+  padding-bottom: 0%;
+  padding-top: 0.5%;
+}
+
+.FB{
+  color:rgb(255, 255, 255);
+  padding: 22px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+}
+
+.FB:hover{
+  opacity: 0.7;
+  color:#4267B2;
+}
+
+.Instagram{
+  color:rgb(255, 255, 255);
+  padding: 22px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+}
+
+.Instagram:hover{
+  opacity: 0.7;
+  color:#8d714d;
+}
+
+.Discord
+{
+  color:rgb(255, 255, 255);
+  padding: 22px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+}
+.Discord:hover{
+  opacity: 0.7;
+  color:#8c9eff;
+}
+
+.footer-row_date{
+  padding-top: 2%;
+}
+
+.footer-row{
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: center;
+  column-count: 2;
+  column-gap: 5%;
+  column-width: 30%;
+}
+

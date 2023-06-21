@@ -1,0 +1,15 @@
+body
+{
+    background-image: 
+    url("../assets/img/pexels-lê-minh-3062545.jpg");
+    background-color: #333;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+ 
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}

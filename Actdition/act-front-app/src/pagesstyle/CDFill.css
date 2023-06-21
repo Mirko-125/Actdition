@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.cd-detail
+{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+select {
+    font-family: 'Lato', sans-serif;
+    width: 300px;
+    padding: 12px;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    /* needed */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* SVG background image */
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%3E%3Ctitle%3Edown-arrow%3C%2Ftitle%3E%3Cg%20fill%3D%22%23000000%22%3E%3Cpath%20d%3D%22M10.293%2C3.293%2C6%2C7.586%2C1.707%2C3.293A1%2C1%2C0%2C0%2C0%2C.293%2C4.707l5%2C5a1%2C1%2C0%2C0%2C0%2C1.414%2C0l5-5a1%2C1%2C0%2C1%2C0-1.414-1.414Z%22%20fill%3D%22%23000000%22%3E%3C%2Fpath%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+      background-size: .6em;
+      background-position: calc(100% - 1.3em) center;
+      background-repeat: no-repeat;
+  }
+  select::-ms-expand {
+      display: none;
+  }
+  
+  .btn-wrapper{
+    text-align: center;
+}
+
+.btnCD:hover{
+  background-color: #777; 
+  border-color:#777;
+  color: #272C34;
+}
+
+  .btnCD
+  {
+    margin-top:10px;
+    width: 40%;
+    max-width: 50%;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 0;
+    line-height: 20px;
+    height: 30px;
+    max-height: 40px;
+    background: #f2f2f2 ;
+    font-weight: 700;
+    border: 2px solid #ced4da;
+    border-radius: 0;
+    color: #272C34;
+    transition-timing-function: ease-in-out;
+    transition-property: box-shadow;
+    transition-duration: 150ms;
+  }
+
+  .cd-detail
+{
+    box-shadow: 0px 0px 15px 15px rgba(80, 80, 80, 0.5);
+    position:center;
+    border: 3px solid rgb(220, 115, 5);
+    display: flex;
+    align-items: flex-start;
+}
+
+.cd-detail.form
+  {
+    width: 50%;
+    height:fit-content;
+  }
+
+  .CDProdukcija{
+  margin-top:0px;
+    margin-bottom: 5%;
+    padding: 0;
+    font-size: 21px;
+    font-family: 'Space Grotesk', sans-serif;
+  }
+
+  .imageCD
+{
+    display:flex;
+    margin:0;
+    width: 100%;
+    padding: 0;
+}
+
+  .left
+  {
+    max-width: 50%;
+    height:auto;
+  }
+  
